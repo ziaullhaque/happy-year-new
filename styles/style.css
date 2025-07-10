@@ -1,0 +1,93 @@
+/* // <weight>: Use a value from 100 to 900
+// <uniquifier>: Use a unique and descriptive class name
+
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+// <weight>: Use a value from 300 to 900
+// <uniquifier>: Use a unique and descriptive class name
+
+.merriweather-<uniquifier> {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+} */
+
+/* linear-gradient(to top,
+  rgba(0, 0, 0, 0.4),
+  rgba(0, 0, 0, 0.4)), */
+/* body {
+  margin: 0;
+  padding: 0;
+}
+.banner {
+  background-image: url(../images/Banner\ Image.png);
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  width: 1320px;
+  height: 600px;
+} */
+
+.banner {
+  position: relative;
+}
+.banner-image {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  margin: auto;
+  width: 50%;
+  height: 50%;
+}
+.banner-title {
+  position: absolute;
+  top: 30%;
+  left: 45%;
+  font-family: "Merriweather", serif;
+  font-size: 22px;
+  color: #ffffff;
+}
+.banner-description {
+  position: absolute;
+  font-family: "Merriweather", serif;
+  top: 33%;
+  left: 42%;
+  font-size: 42px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+}
+/* discount section start */
+.discount-section {
+  text-align: center;
+}
+.off-section {
+  font-weight: bold;
+  font-size: 82px;
+  font-family: "Inter", sans-serif;
+  color: #ff0000;
+  padding-top: 60px;
+}
+.holyday-section {
+  font-size: 22px;
+  color: #ff0000;
+  font-family: "Inter", sans-serif;
+}
+.catagory-section {
+  font-size: 44px;
+  color: #070211;
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
+}
+.new-year-section {
+  width: 700px;
+  height: 400px;
+  padding-top: 50px;
+}
