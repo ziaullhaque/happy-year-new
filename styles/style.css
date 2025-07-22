@@ -28,6 +28,7 @@
   padding: 0px;
   /* box-sizing: border-box; */
 }
+/* banner section start */
 header {
   padding-top: 50px;
 }
@@ -73,4 +74,89 @@ header {
   text-align: center;
   margin: 0 auto;
   padding-top: 10px;
+}
+/* discount section start */
+.our-holiday {
+  width: 802px;
+  height: 806px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 120px;
+}
+
+.sec-off {
+  color: rgb(255, 0, 0);
+  font-family: "Inter", sans-serif;
+  font-size: 5.5rem;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+.sec-holi {
+  color: rgb(255, 0, 0);
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.sec-cet {
+  color: rgb(7, 2, 17);
+  font-family: "Inter", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+/* happy new year banner section */
+.happy-new {
+  width: 1320px;
+  height: 600px;
+  margin: 0 auto;
+  background-image: url(/images/Vectorrr.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-top: 80px;
+}
+.happy-new::before {
+  content: "";
+  width: 1320px;
+  height: 600px;
+  border-radius: 16px;
+  position: absolute;
+  background: linear-gradient(90deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%);
+}
+.happy-year {
+  padding-left: 126px;
+}
+.happy-title {
+  width: 542px;
+  height: 176px;
+  position: relative;
+  color: rgb(255, 255, 255);
+  font-family: "Merriweather", serif;
+  font-size: 4rem;
+  font-weight: 900;
+  padding-bottom: 24px;
+}
+.happy-des {
+  width: 697px;
+  height: 60px;
+  position: relative;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Inter", sans-serif;
+  font-size: 1.12rem;
+  font-weight: 400;
+  padding-bottom: 48px;
+}
+.happy-join {
+  position: relative;
+  color: rgb(255, 255, 255);
+  font-family: "Inter", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding-left: 32px;
+}
+.group-image img {
+  padding-left: 60px;
 }
