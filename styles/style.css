@@ -22,72 +22,55 @@
 /* linear-gradient(to top,
   rgba(0, 0, 0, 0.4),
   rgba(0, 0, 0, 0.4)), */
-/* body {
-  margin: 0;
-  padding: 0;
-}
-.banner {
-  background-image: url(../images/Banner\ Image.png);
-  background-position: center;
-  background-size: cover;
-  align-items: center;
-  width: 1320px;
-  height: 600px;
-} */
 
+* {
+  margin: 0px;
+  padding: 0px;
+  /* box-sizing: border-box; */
+}
+header {
+  padding-top: 50px;
+}
 .banner {
   position: relative;
+  background-image: url(/images/Banner\ Image.png);
+  width: 1320px;
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
 }
-.banner-image {
-  display: flex;
-  /* justify-content: center;
-  align-items: center; */
-  margin: auto;
-  width: 50%;
-  height: 50%;
-}
-.banner-title {
+.banner::before {
   position: absolute;
-  top: 30%;
-  left: 45%;
+  content: "";
+  /* top: 0;
+  left: 0; */
+  width: 1320px;
+  height: 600px;
+  border-radius: 10px;
+  background: linear-gradient(180deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%);
+}
+.new-year {
+  position: relative;
+  color: rgb(255, 255, 255);
   font-family: "Merriweather", serif;
-  font-size: 22px;
-  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 180px;
 }
-.banner-description {
-  position: absolute;
+.par-cele {
+  width: 632px;
+  height: 190px;
+  position: relative;
+  color: rgb(255, 255, 255);
   font-family: "Merriweather", serif;
-  top: 33%;
-  left: 42%;
-  font-size: 42px;
-  color: #ffffff;
+  font-size: 4.5rem;
+  font-weight: 900;
   text-align: center;
-  font-weight: bold;
-}
-/* discount section start */
-.discount-section {
-  text-align: center;
-}
-.off-section {
-  font-weight: bold;
-  font-size: 82px;
-  font-family: "Inter", sans-serif;
-  color: #ff0000;
-  padding-top: 60px;
-}
-.holyday-section {
-  font-size: 22px;
-  color: #ff0000;
-  font-family: "Inter", sans-serif;
-}
-.catagory-section {
-  font-size: 44px;
-  color: #070211;
-  font-weight: bold;
-  font-family: "Inter", sans-serif;
-}
-.new-year-section {
-  width: 700px;
-  height: 400px;
-  padding-top: 50px;
+  margin: 0 auto;
+  padding-top: 10px;
 }
