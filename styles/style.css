@@ -160,3 +160,243 @@ header {
 .group-image img {
   padding-left: 60px;
 }
+/*  */
+.pla-da-ti {
+  width: 1320px;
+  height: 482px;
+  border-radius: 16px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0) 100%
+  );
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.park-hotel {
+  width: 549px;
+  height: 168px;
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0 auto;
+  text-align: center;
+}
+.hotel-new {
+  padding-top: 130px;
+}
+.hight-date {
+  padding-top: 20px;
+}
+.time-even {
+  padding-top: 20px;
+  padding-bottom: 48px;
+}
+.co-red {
+  color: rgb(255, 0, 0);
+}
+.join-now {
+  width: 150px;
+  height: 50px;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-family: "Inter", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  border-radius: 8px;
+  background: rgb(255, 0, 0);
+}
+/*  */
+.banner-two {
+  width: 1320px;
+  height: 463px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+.best-offer {
+  color: rgb(255, 0, 0);
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-top: 104px;
+}
+.soon-come {
+  color: rgb(7, 2, 17);
+  font-family: "Merriweather", serif;
+  font-size: 3rem;
+  font-weight: 900;
+  padding-top: 12px;
+  padding-bottom: 20px;
+}
+.amet-con {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  width: 393px;
+  height: 128px;
+}
+.year-four {
+  color: rgb(255, 0, 0);
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  padding-top: 112px;
+}
+.consectetur {
+  width: 276px;
+  height: 96px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+.circle {
+  width: 463px;
+  height: 463px;
+  box-sizing: border-box;
+  border: 15px solid rgb(255, 0, 0);
+  border-radius: 50%;
+}
+.Ellipse {
+  padding-top: 35px;
+  padding-left: 35px;
+}
+/*  */
+.functional {
+  width: 1068px;
+  height: 260px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 100px;
+}
+.what-is {
+  color: rgb(7, 2, 17);
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  padding-bottom: 16px;
+}
+.holy-sale {
+  font-family: "Merriweather", serif;
+  font-size: 72px;
+  font-weight: 900;
+  color: rgb(7, 2, 17);
+}
+.holidays {
+  color: rgb(255, 0, 0);
+}
+.ipsum-sed {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 24px;
+}
+/*  */
+
+.gifts {
+  width: 1320px;
+  height: 662px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 400px;
+}
+.gift-one {
+  position: relative;
+  top: 240px;
+  z-index: 1;
+}
+.gift-two {
+  position: absolute;
+}
+.gift-three {
+  padding-left: 178px;
+  padding-bottom: 50px;
+}
+/*  */
+.items {
+  width: 1320px;
+  height: 1163px;
+  margin: 0 auto;
+}
+.the-gift {
+  color: rgb(255, 0, 0);
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.our-protfolio {
+  color: rgb(7, 2, 17);
+  font-family: "Merriweather", serif;
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 22px;
+}
+.awesome {
+  width: 896px;
+  height: 64px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 48px;
+}
+/*  */
+.sec-mail {
+  width: 1320px;
+  height: 616px;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.group-six {
+  padding-top: 80px;
+}
+.mail-title {
+  color: rgb(7, 2, 17);
+  font-family: "Merriweather", serif;
+  font-size: 3rem;
+  font-weight: 900;
+  padding-top: 45px;
+}
+.mail-dis {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  padding-top: 22px;
+  padding-bottom: 48px;
+  /* width: 896px;
+  height: 64px; */
+}
+input {
+  width: 600px;
+  height: 50px;
+  border: none;
+  color: rgba(7, 2, 17, 0.3);
+  font-size: 1.25rem;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  border-radius: 50px 0px 0px 50px;
+  background: rgb(255, 255, 255);
+}
+.user-email {
+  padding: 0px 0px 0px 30px;
+}
+.btn-subscribe {
+  border: none;
+  width: 200px;
+  height: 50px;
+  color: rgb(255, 255, 255);
+  font-family: "Inter", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  border-radius: 0px 50px 50px 0px;
+  background: rgb(255, 0, 0);
+}
