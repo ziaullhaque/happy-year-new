@@ -29,7 +29,7 @@ header {
 }
 .banner {
   position: relative;
-  background-image: url(/images/Banner\ Image.png);
+  background-image: url("../images/Banner\ Image.png");
   width: 1320px;
   height: 600px;
   background-size: cover;
