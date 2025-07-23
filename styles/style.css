@@ -105,7 +105,7 @@ header {
   width: 1320px;
   height: 600px;
   margin: 0 auto;
-  background-image: url(/images/Vectorrr.png);
+  background-image: url("../images/Vectorrr.png");
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
